@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw_data
+    database: INFO_MATCHES_DB
+    schema: RAW
+    tables:
+      - name: MATCHES
+      - name: PLAYED_MATCHES

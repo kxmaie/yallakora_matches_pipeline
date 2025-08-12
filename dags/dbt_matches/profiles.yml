@@ -1,0 +1,13 @@
+dbt_matches:
+  target: dev
+  outputs:
+    dev:
+      account: bl16247.me-central2.gcp
+      database: INFO_MATCHES_DB
+      password: dpt_password
+      role: ACCOUNTADMIN
+      schema: RAW
+      threads: 1
+      type: snowflake
+      user: DBT_MO
+      warehouse: INFO_OF_MATCHES
